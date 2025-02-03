@@ -7,7 +7,7 @@ How many rows are there for the `Yellow` Taxi data for all CSV files in the year
 
 ```sql
 SELECT COUNT(*)
-FROM `ny-taxi-448414.zoomcamp_kestra_homework.yellow_tripdata`
+FROM `ny-taxi-468414.kestra_homework.yellow_tripdata`
 WHERE 
   EXTRACT(YEAR FROM tpep_pickup_datetime) = 2020
 ```
@@ -17,7 +17,7 @@ How many rows are there for the `Green` Taxi data for all CSV files in the year 
 
 ```sql
 SELECT COUNT(*)
-FROM `ny-taxi-448414.zoomcamp_kestra_homework.green_tripdata`
+FROM `ny-taxi-468414.kestra_homework.green_tripdata`
 WHERE 
   EXTRACT(YEAR FROM lpep_pickup_datetime) = 2020
 ```
@@ -26,7 +26,7 @@ WHERE
 
 ```yaml
 SELECT COUNT(*)
-FROM `ny-taxi-448414.zoomcamp_kestra_homework.yellow_tripdata_2021_03`
+FROM `ny-taxi-468414.kestra_homework.yellow_tripdata_2021_03`
 ```
 
 ### Question 6
