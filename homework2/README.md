@@ -24,7 +24,7 @@ WHERE
 
 ### Question 5
 
-```yaml
+```sql
 SELECT COUNT(*)
 FROM `ny-taxi-468414.kestra_homework.yellow_tripdata_2021_03`
 ```
