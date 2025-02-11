@@ -2,8 +2,6 @@
 
 
 ### Question 3
-How many rows are there for the `Yellow` Taxi data for all CSV files in the year 2020?
-
 
 ```sql
 SELECT COUNT(*)
@@ -13,7 +11,6 @@ WHERE
 ```
 
 ### Question 4
-How many rows are there for the `Green` Taxi data for all CSV files in the year 2020?
 
 ```sql
 SELECT COUNT(*)
