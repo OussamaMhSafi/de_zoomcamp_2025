@@ -7,8 +7,7 @@ import dlt
 print("dlt version:", dlt.__version__)
 
 # Answer:
-dlt 1.6.1
-dlt version: 1.6.1
+1.6.1
 
 
 ## Question 2: Define & Run the Pipeline (NYC Taxi API)
