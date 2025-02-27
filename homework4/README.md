@@ -102,7 +102,7 @@ FROM quarterly_growth
 ORDER BY service_type, yoy_percentage_change DESC;
 ```
 
-### Question 6: P97/P95/P90 Taxi Monthly Fare
+### Question 6:
 
 ### Step 1
 
@@ -200,7 +200,7 @@ By running the above query, we get the continuous percentiles for April 2020 for
   - P90: 19.0
 
 
-### Question 7: Top #Nth longest P90 travel time Location for FHV
+### Question 7:
 
 Create the following files to implement the solution:
 
